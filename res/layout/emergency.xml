@@ -6,6 +6,17 @@
     >  
     
     <TextView  
+    android:id="@+id/situation_name"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/situation_name"
+    android:gravity="center_vertical|center_horizontal"
+    android:textColor="@color/white"
+    android:background="@color/black"
+    android:textSize="16pt"
+    android:textStyle="bold"/>
+    
+    <TextView  
     android:layout_width="fill_parent" 
     android:layout_height="wrap_content" 
     android:text="@string/emergency_number_info"

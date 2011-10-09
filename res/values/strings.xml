@@ -7,11 +7,13 @@
     <string name="maybe">Unsure</string>
     <string name="no">No emergency</string>
     
-    <string name="emergency_number_info">This is a genuine emergency, dial 999 immediately</string>
+    <string name="situation_name">If you believe this </string>
+    <string name="emergency_number_info">is a genuine emergency, dial 999 immediately</string>
     
     <string name="situation_question">What\'s the situation?</string>
     
     <string name="info_screen">Keep calm\nand\ncarry on</string>
+    
     <string-array name="Situations">
     	<item>Chest pain</item>
     	<item>Difficulty breathing</item>
@@ -21,9 +23,9 @@
     	<item>Drowning</item>
         <item>Wound</item>
         <item>Burn</item>
+        <item>Allergic reaction</item>
         <item>Animal bite</item>
         <item>Food poisoning</item>
-        <item>Allergic reaction</item>
         <item>Electrocution</item>
     </string-array>
     
