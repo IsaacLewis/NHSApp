@@ -17,5 +17,13 @@
         <activity android:name="com.svc2uk.EmergencyNumberInfo"
                   android:label="@string/app_name">
         </activity>
+        
+                <activity android:name="com.svc2uk.Triage"
+                  android:label="@string/app_name">
+        </activity>
+        
+                <activity android:name="com.svc2uk.JustInfo"
+                  android:label="@string/app_name">
+        </activity>
     </application>
 </manifest>

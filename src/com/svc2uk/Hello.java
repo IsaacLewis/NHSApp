@@ -17,18 +17,30 @@ public class Hello extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
-        
-        // String s = findStringById(R.string.yes);
-        //ListView lv = (ListView) findViewById(R.id.ListView_menu);
-        View yes = findViewById(R.id.yes_button);
-        Log.d("sv",(yes == null) + " " + yes);
-        yes.setOnClickListener(new AdapterView.OnClickListener() {
 
+        View yes = findViewById(R.id.yes_button);
+        View maybe = findViewById(R.id.maybe_button);
+        View no = findViewById(R.id.no_button);
+
+        yes.setOnClickListener(new AdapterView.OnClickListener() {
 		@Override
 		public void onClick(View view) {
-			startActivity(new Intent(Hello.this,EmergencyNumberInfo.class));
-			
+			startActivity(new Intent(Hello.this,EmergencyNumberInfo.class));			
 		}
 	    });
+        
+        maybe.setOnClickListener(new AdapterView.OnClickListener() {
+    		@Override
+    		public void onClick(View view) {
+    			startActivity(new Intent(Hello.this,Triage.class));			
+    		}
+    	    });
+        
+        no.setOnClickListener(new AdapterView.OnClickListener() {
+    		@Override
+    		public void onClick(View view) {
+    			startActivity(new Intent(Hello.this,JustInfo.class));			
+    		}
+    	    });
     }
 }

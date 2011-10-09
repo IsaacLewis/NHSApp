@@ -27,6 +27,7 @@
     android:id="@+id/yes_button"/>
     
 	<TextView  
+	 android:id="@+id/maybe_button"
     android:layout_width="fill_parent" 
     android:layout_height="wrap_content" 
     android:text="@string/maybe"
@@ -38,6 +39,7 @@
     
         
 	<TextView  
+	 android:id="@+id/no_button"
     android:layout_width="fill_parent" 
     android:layout_height="wrap_content" 
     android:text="@string/no"
