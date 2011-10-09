@@ -46,6 +46,10 @@ public class Triage extends Activity {
                     	Intent intent = new Intent(Triage.this,EmergencyNumberInfo.class);
                     	intent.putExtra("situationName",strText);
                     	startActivity(intent);
+                    	break;
+                    	
+                    case 7:
+                    	startActivity(new Intent(Triage.this,BurnQuestion.class));
 
             	    
 		    }
