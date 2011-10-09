@@ -49,12 +49,5 @@
     android:textSize="20pt"
     android:textStyle="bold"/>
     
-       <ListView
-   android:id="@+id/ListView_menu"
-   android:layout_width="fill_parent"
-   android:layout_height="wrap_content"
-   android:gravity="center_vertical|center_horizontal"
-   
-   >
-   </ListView>
+
 </LinearLayout>

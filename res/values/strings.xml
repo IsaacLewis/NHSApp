@@ -12,4 +12,11 @@
     <string name="situation_question">What\'s the situation?</string>
     
     <string name="info_screen">Keep calm\nand\ncarry on</string>
+    <string-array name="Situations">
+        <item>Wound</item>
+        <item>Burn</item>
+        <item>Badger attack</item>
+        <item>Ate a dodgy kebab</item>
+        <item>Condom broke</item>
+    </string-array>
 </resources>

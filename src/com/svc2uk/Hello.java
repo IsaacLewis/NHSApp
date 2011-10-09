@@ -7,9 +7,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ListView;
-import android.widget.TextView;
-import android.widget.Toast;
+
 
 public class Hello extends Activity {
     /** Called when the activity is first created. */
@@ -22,6 +20,7 @@ public class Hello extends Activity {
         View maybe = findViewById(R.id.maybe_button);
         View no = findViewById(R.id.no_button);
 
+        Log.d("sv",(yes == null) + " " + (maybe==null)+ " " + (no==null));
         yes.setOnClickListener(new AdapterView.OnClickListener() {
 		@Override
 		public void onClick(View view) {
