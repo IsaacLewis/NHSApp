@@ -17,13 +17,14 @@
 
     <TextView  
     android:layout_width="fill_parent" 
-    android:layout_height="wrap_content" 
+    android:layout_height="wrap_content"
     android:text="@string/yes"
     android:gravity="center_vertical|center_horizontal"
     android:textColor="@color/white"
     android:background="@color/red"
     android:textSize="20pt"
-    android:textStyle="bold"/>
+    android:textStyle="bold" 
+    android:id="@+id/yes_button"/>
     
 	<TextView  
     android:layout_width="fill_parent" 
@@ -46,4 +47,12 @@
     android:textSize="20pt"
     android:textStyle="bold"/>
     
+       <ListView
+   android:id="@+id/ListView_menu"
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:gravity="center_vertical|center_horizontal"
+   
+   >
+   </ListView>
 </LinearLayout>

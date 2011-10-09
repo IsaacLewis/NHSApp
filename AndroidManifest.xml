@@ -14,7 +14,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="hk"
+        <activity android:name="com.svc2uk.EmergencyNumberInfo"
                   android:label="@string/app_name">
         </activity>
     </application>
