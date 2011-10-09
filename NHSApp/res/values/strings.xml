@@ -2,4 +2,10 @@
 <resources>
     <string name="hello">Don\'t Panic!</string>
     <string name="app_name">NHSApp</string>
+    <string name="emergency_question">Is there an emergency?</string>
+    <string name="yes">Emergency!</string>
+    <string name="maybe">Unsure</string>
+    <string name="no">No emergency</string>
+    
+    <string name="emergency_number_info">In a genuine emergency, dial 999 immediately</string>
 </resources>
