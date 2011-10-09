@@ -10,6 +10,7 @@ package com.svc2uk;
 public final class R {
     public static final class array {
         public static final int Situations=0x7f060000;
+        public static final int services=0x7f060001;
     }
     public static final class attr {
     }
@@ -25,10 +26,10 @@ public final class R {
         public static final int icon=0x7f020000;
     }
     public static final class id {
-        public static final int maybe_button=0x7f070001;
-        public static final int menu=0x7f070003;
-        public static final int no_button=0x7f070002;
-        public static final int yes_button=0x7f070000;
+        public static final int maybe_button=0x7f070002;
+        public static final int menu=0x7f070000;
+        public static final int no_button=0x7f070003;
+        public static final int yes_button=0x7f070001;
     }
     public static final class layout {
         public static final int emergency=0x7f030000;

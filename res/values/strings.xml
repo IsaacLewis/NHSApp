@@ -7,16 +7,33 @@
     <string name="maybe">Unsure</string>
     <string name="no">No emergency</string>
     
-    <string name="emergency_number_info">In a genuine emergency, dial 999 immediately</string>
+    <string name="emergency_number_info">This is a genuine emergency, dial 999 immediately</string>
     
     <string name="situation_question">What\'s the situation?</string>
     
     <string name="info_screen">Keep calm\nand\ncarry on</string>
     <string-array name="Situations">
+    	<item>Chest pain</item>
+    	<item>Difficulty breathing</item>
+    	<item>Choking</item>
+    	<item>Unconsciousness</item>
+    	<item>Fitting or concussion</item>
+    	<item>Drowning</item>
         <item>Wound</item>
         <item>Burn</item>
-        <item>Badger attack</item>
-        <item>Ate a dodgy kebab</item>
-        <item>Condom broke</item>
+        <item>Animal bite</item>
+        <item>Food poisoning</item>
+        <item>Allergic reaction</item>
+        <item>Electrocution</item>
+    </string-array>
+    
+    <string-array name="services">
+        <item>Self care</item>
+        <item>NHS Direct</item>
+        <item>Pharmacist</item>
+        <item>GP</item>
+        <item>NHS walk-in centre, urgent care centre, or minor injuries unit</item>
+        <item>A and E</item>
+        <item>999</item>   
     </string-array>
 </resources>
