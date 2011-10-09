@@ -10,9 +10,13 @@
     <string name="situation_name">If you believe this </string>
     <string name="emergency_number_info">is a genuine emergency, dial 999 immediately</string>
     
+    <string name="non_emergency_info">is not a life-threatening emergency. You may wish to visit an NHS walk-in centre, urgent care centre, or minor injuries unit. (Find). Alternatively, call 111 for further advice.</string>
+    
     <string name="situation_question">What\'s the situation?</string>
     
     <string name="info_screen">Keep calm\nand\ncarry on</string>
+    
+    <string name="burn_question">How severe is the burn?</string>
     
     <string-array name="Situations">
     	<item>Chest pain</item>

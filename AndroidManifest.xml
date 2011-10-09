@@ -25,6 +25,16 @@
                 <activity android:name="com.svc2uk.JustInfo"
                   android:label="@string/app_name">
         </activity>
+        
+        
+        <activity android:name="com.svc2uk.BurnQuestion"
+                  android:label="@string/app_name">
+        </activity>
+        
+                
+        <activity android:name="com.svc2uk.NonEmergencyInfo"
+                  android:label="@string/app_name">
+        </activity>
     </application>
     
     <uses-sdk android:minSdkVersion="7" />
