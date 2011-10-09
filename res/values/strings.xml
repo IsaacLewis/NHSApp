@@ -8,4 +8,8 @@
     <string name="no">No emergency</string>
     
     <string name="emergency_number_info">In a genuine emergency, dial 999 immediately</string>
+    
+    <string name="situation_question">What\'s the situation?</string>
+    
+    <string name="info_screen">Keep calm\nand\ncarry on</string>
 </resources>
